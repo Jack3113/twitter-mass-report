@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Mass Report</title>
+    <link rel="stylesheet" href="main.css"/>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+<header>
+    <h1><a href=".">Twitter mass report</a></h1>
+</header>
+<div class="flex-wrapper-center">
+    <div id="content">
+        <form id="submit-usernames">
+            <label for="usernames">Twitter usernames (1 line per username):</label>
+            <textarea id="usernames"></textarea>
+            <div id="controls">
+                <input type="submit" value="Report"/>
+            </div>
+        </form>
+        <div id="results">
+            <h3>Results:</h3>
+            <i>Links and button will open a new tab</i>
+            <div id="results-content"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

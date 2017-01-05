@@ -1,0 +1,88 @@
+body {
+        padding: 0;
+        margin: 0;
+}
+
+.flex-wrapper-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+}
+
+header, #content {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+}
+
+header {
+        background: #2196f3;
+        flex-direction: row;
+        color: white;
+}
+
+header h1 {
+        font-size: 1.5em;
+        padding: 5px 0;
+        margin: 0;
+        text-transform: capitalize;
+}
+
+header a, header a:visited, header a:hover {
+        text-decoration: none;
+        color: white;
+}
+
+label, textarea, input {
+        display: block;
+}
+
+#usernames {
+        width: 450px;
+        height: 300px;
+}
+
+#results {
+        display: none;
+}
+
+#content {
+        margin-top: 10px;
+        max-width: 500px;
+        flex-direction: column;
+}
+
+#controls {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row-reverse;
+}
+
+#controls input {
+        border-radius: 6px;
+        background: #D32F2F;
+        color: #FFF;
+        font-weight: bold;
+        border: 2px solid #FF5722;
+        padding: 5px 20px;
+}
+
+#controls input:hover {
+        cursor: pointer;
+}
+
+.user {
+        border: solid 1px black;
+        border-radius: 2px;
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+}
+
+.user .username {
+        text-align: center;
+}
