@@ -86,3 +86,17 @@ label, textarea, input {
 .user .username {
         text-align: center;
 }
+
+#warning {
+        margin: 5px;
+        padding: 2px 10px;
+        background: indianred;
+        border-radius: 2px;
+        border: 1px solid red;
+        color: #fff;
+}
+
+#warning a, #warning a:visited {
+        color: #fff;
+        font-weight: bold;
+}

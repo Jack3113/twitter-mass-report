@@ -5,7 +5,7 @@
     <title>Twitter Mass Report</title>
     <link rel="stylesheet" href="main.css"/>
     <script type="text/javascript" src="main.js"></script>
-    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="icon" type="image/png" href="assets/favicon.png"/>
 </head>
 <body>
 <header>
@@ -13,8 +13,11 @@
 </header>
 <div class="flex-wrapper-center">
     <div id="content">
+        <div id="warning">
+            <i>You have to be connected on</i> <a href="https://twitter.com/login" target="_blank">Twitter</a>
+        </div>
         <form id="submit-usernames">
-            <label for="usernames">Twitter usernames (1 line per username):</label>
+            <label for="usernames">Entry Twitter usernames (1 line per username):</label>
             <textarea id="usernames"></textarea>
             <div id="controls">
                 <input type="submit" value="Resolve accounts"/>
