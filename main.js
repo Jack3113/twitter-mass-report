@@ -1,7 +1,7 @@
 function getTwitterID(username) {
     if (username !== null && username !== '') {
         var req = new XMLHttpRequest();
-        req.open('GET', 'http://hackjack.info/getTwitterID.php?username=' + username, true);
+        req.open('GET', 'https://api.streamon.info/TwitterID/?username=' + username, true);
         req.onreadystatechange = function(aEvt) {
             if (req.readyState == 4) {
                 if (req.status == 200) {
