@@ -5,6 +5,10 @@ It is just a client, no data is stored on a server or whatever.
 
 You have to be connected on Twitter with your browser when you are using it.
 
+### Warning
+
+Blocking account or masking doesn't work.
+
 
 ### Website
 [Website](https://jack3113.github.io/twitter-mass-report/)
